@@ -1,9 +1,10 @@
 {
-    "name": "jellyfish",
+    "name": "Blooming Bots",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "servo": "*"
+        "servo": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.10"
     },
     "description": "",
     "files": [
