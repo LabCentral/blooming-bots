@@ -1,3 +1,3 @@
 basic.forever(function () {
-    servos.P1.setAngle(0)
+    servos.P1.setAngle(90)
 })

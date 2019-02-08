@@ -8,7 +8,7 @@
         <field name="servo">servos.P1</field>
         <value name="degrees">
           <shadow type="protractorPicker">
-            <field name="angle">0</field>
+            <field name="angle">90</field>
           </shadow>
         </value>
       </block>
