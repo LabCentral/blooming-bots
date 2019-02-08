@@ -2,44 +2,13 @@
   <variables>
     <variable type="" id="]vgAZu-?AoW3`9;pEe/M">strip</variable>
   </variables>
-  <block type="pxt-on-start" x="0" y="0">
+  <block type="device_forever" x="0" y="0">
     <statement name="HANDLER">
-      <block type="variables_set">
-        <field name="VAR" id="]vgAZu-?AoW3`9;pEe/M" variabletype="">strip</field>
-        <value name="VALUE">
-          <shadow type="math_number">
-            <field name="NUM">0</field>
-          </shadow>
-          <block type="neopixel_create">
-            <field name="pin">DigitalPin.P0</field>
-            <field name="mode">NeoPixelMode.RGB</field>
-            <value name="numleds">
-              <shadow type="math_number">
-                <field name="NUM">5</field>
-              </shadow>
-            </value>
-          </block>
-        </value>
-      </block>
-    </statement>
-  </block>
-  <block type="device_forever" x="0" y="169">
-    <statement name="HANDLER">
-      <block type="neopixel_show_bar_graph">
-        <value name="strip">
-          <block type="variables_get">
-            <field name="VAR" id="]vgAZu-?AoW3`9;pEe/M" variabletype="">strip</field>
-          </block>
-        </value>
-        <value name="value">
-          <shadow type="math_number" id="%[T_L]I0YUh^Yp#|lM2;">
-            <field name="NUM">0</field>
-          </shadow>
-          <block type="device_get_light_level"></block>
-        </value>
-        <value name="high">
-          <shadow type="math_number">
-            <field name="NUM">255</field>
+      <block type="servoservosetangle">
+        <field name="servo">servos.P1</field>
+        <value name="degrees">
+          <shadow type="protractorPicker">
+            <field name="angle">0</field>
           </shadow>
         </value>
       </block>
