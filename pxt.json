@@ -2,9 +2,7 @@
     "name": "Blooming Bots",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "servo": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.6.10"
+        "servo": "*"
     },
     "description": "",
     "files": [
